@@ -1,34 +1,23 @@
 ## Instructions for form challenge
-
-1. create a form within the FormComponent
-
-2. add 2 inputs to the form
-
-- numerical input with label "How much I like programming"
-- textual input with label "Ways in which I like programming"
-
-3. make the "Ways in which I like programming" input required
-
-4. create a button in your form
-
-- make this button disabled when the form is not valid
-- make this button submit the form when clicked
-
-5. create a new Angular Service in the same folder as your FormComponent
-
-- create a new method here that will log the following phrase to the console "Button has been clicked"
-- make sure your new method is called when the form button is clicked
-
-6. create a new method on your new Angular Service that will log the following phrase to the console "Numerical input has been changed"
-
-- make sure your new method is called when the "How much I like programming" is changed by the user
-
+1. Create a form within the FormComponent
+2. Add 2 inputs to the form
+   * Numerical input with label "How much I like programming"
+   * Textual input with label "Ways in which I like programming"
+3. Make the "Ways in which I like programming" input required
+4. Create a button in your form
+   * Make this button disabled when the form is not valid
+   * Make this button submit the form when clicked
+5. Create a new Angular Service in the same folder as your FormComponent
+   * Create a new method here that will log the following phrase to the console "Button has been clicked"
+   * Make sure your new method is called when the form button is clicked
+6. Create a new method on your new Angular Service that will log the following phrase to the console "Numerical input has been changed"
+   * Make sure your new method is called when the "How much I like programming" is changed by the user
 7. Make the "Forms" component look like the form in "mock up valid.png"/"mock up invalid.png" in the "src/assests" folder. 
-
-- Don't have to worry about exact size of the elements on the page
-- If you can't make it look exactly like the mock up get as close as you can
-- Notice that we do have Angular Material installed and "Ways in which I like programming" only turns red when the input has been touched first
-
+   * ![mockup1](https://github.com/tjwoods58DL/Angular-Challenge/blob/master/src/assets/mock%20up%20valid.png)
+   * ![mockup2](https://github.com/tjwoods58DL/Angular-Challenge/blob/master/src/assets/mock%20up%20invalid.png)
+   * You don't have to worry about exact size of the elements on the page.
+   * If you can't make it look exactly like the mock up get as close as you can.
+   * Notice that we do have Angular Material installed and "Ways in which I like programming" only turns red when the input has been touched first.
 
 ## Instructions for debug challenge
 
